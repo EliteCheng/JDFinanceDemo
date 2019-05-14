@@ -19,7 +19,7 @@ function resolveView(path, name, component,
 }
 
 export default new VueRouter({
-    mode: false ? "history" : "hash",
+    mode: "history",
     base: __dirname,
     routes:
         [

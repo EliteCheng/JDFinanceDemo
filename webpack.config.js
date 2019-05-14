@@ -43,7 +43,10 @@ module.exports = env => {
             compress: true,
             port: 996,
             clientLogLevel: "none",
-            quiet: true
+            quiet: true,
+            historyApiFallback:{
+                index:'/index.html'
+            },
         },
         module: {
             loaders: [
